@@ -1,4 +1,7 @@
 ///////////////////
+//This aims to design a visually appealing, interactive web graphic. 
+//The rotation speed changes whenever mouse motion is detected. 
+//Enjoy!
 //This code is modified from work from http://codepen.io/ctscodes/pen/ZpWOKV
 //The image resource is from https://www.petfinder.com/wp-content/uploads/2012/11/152964589-welcome-home-new-cat-632x475.jpg
 //////////////////
