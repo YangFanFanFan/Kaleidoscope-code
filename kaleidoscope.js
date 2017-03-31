@@ -1,3 +1,8 @@
+///////////////////
+//This code is modified from work from http://codepen.io/ctscodes/pen/ZpWOKV
+//The image resource is from https://www.petfinder.com/wp-content/uploads/2012/11/152964589-welcome-home-new-cat-632x475.jpg
+//////////////////
+
 var doc = document;
 var	body = doc.body;
 var	win = window;
@@ -22,7 +27,7 @@ var v = {
 body.appendChild(c);
 c.width = v.radius * 2;
 c.height = v.radius * 2;
-
+//
 function draw(){
 	ctx.fillStyle = ctx.createPattern(img, 'repeat');
 	var step = two_PI / v.slices;
