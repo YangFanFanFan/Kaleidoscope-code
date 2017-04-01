@@ -49,6 +49,7 @@ function draw(){
     		ctx.scale([ 1,-1 ][i % 2], 1); //This decide the slides direction
 		//ctx.translate(v.offsetX + cx, v.offsetY); //rotate inward
 		ctx.translate(v.offsetX - cx, v.offsetY); //rotate outward
+		// v.offsetRotation * n --> n is the speed factor
 		ctx.rotate(v.offsetRotation);
 		ctx.fill();
 		ctx.restore();		
